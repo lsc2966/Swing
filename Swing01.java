@@ -1,3 +1,4 @@
+
 package swing;
 
 import java.awt.Desktop;
@@ -33,7 +34,7 @@ public class Swing01 extends JFrame {
 				if (Desktop.isDesktopSupported()) {
 					Desktop desktop = Desktop.getDesktop();
 					try {
-						URI uri = new URI("http://www.roseindia.net");
+						URI uri = new URI("https://github.com/lsc2966/Swing");
 						desktop.browse(uri);
 					} catch (Exception ex) {
 					}
