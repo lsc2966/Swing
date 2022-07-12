@@ -13,7 +13,7 @@ public class Swing02 {
 		frame.setVisible(true);
 		frame.setBounds(0, 0, 500, 400);
 		
-
+ 
 		
 	}
 
